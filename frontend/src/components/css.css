@@ -1,0 +1,25 @@
+.custom-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #333; /* Dark border */
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    vertical-align: middle;
+    position: relative;
+    background-color: transparent;
+}
+
+.custom-checkbox:checked {
+    background-color: #333; /* Dark background when checked */
+}
+
+body {
+    background-image: url("https://play-lh.googleusercontent.com/vTTDlsM4RpyT0f3xn5oky7Nw22SISKIXkDA0Yz20racoMLDzaZjcOivbx1lEsjZQZNE=w526-h296-rw");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
